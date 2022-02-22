@@ -4774,5 +4774,35 @@
         "uiObject": {
             "isRunning": false
         }
+    },
+    "userApps": {
+        "type": "User Apps",
+        "name": "New User Apps",
+        "project": "User-Apps",
+        "id": "d808adcb-71ef-40fc-9920-2e73dad7a806",
+        "config": "{}",
+        "desktopApps": {
+            "type": "Desktop Apps",
+            "name": "New Desktop Apps",
+            "project": "User-Apps",
+            "id": "8b61d413-1bd0-495d-bdb2-b37b26f33b9e",
+            "config": "{}",
+            "socialTradingDesktopApps": [
+                {
+                    "type": "Social Trading Desktop App",
+                    "name": "Social Trading Desktop App #1",
+                    "project": "User-Apps",
+                    "id": "112e44c9-ccd0-4b52-b113-9a78c6ea8d6c",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\"\n}",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "project": "Governance",
+                        "id": "b40bfac1-70c7-4d65-a1fe-94e2877f20e7",
+                        "config": "{\"codeName\":\"Social-Trading-Desktop-App-1\",\"signature\":{\"message\":\"alexandrustefan\",\"messageHash\":\"0x01480a1f95282f9cd8ecd58e16b722678a17738f633c1b0e4459c091c69c2e89\",\"v\":\"0x1c\",\"r\":\"0x1c87d977e3c76dea730bd4d017aa2d6fbdca30197d40c6677da8ade04baf2323\",\"s\":\"0x17bc775f48840a0916bfe655113f72e4bbe2504576f7fa67cea51f653831e9da\",\"signature\":\"0x1c87d977e3c76dea730bd4d017aa2d6fbdca30197d40c6677da8ade04baf232317bc775f48840a0916bfe655113f72e4bbe2504576f7fa67cea51f653831e9da1c\"}}"
+                    }
+                }
+            ]
+        }
     }
 }
